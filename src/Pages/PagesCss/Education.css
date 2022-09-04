@@ -1,0 +1,107 @@
+.container_edu{
+    width: 83%;
+    height: 100vh;
+    /* background-color: #727272; */
+    position:absolute;
+    right: 0;
+}
+
+.container_edu .heading-meta {
+    position: absolute;
+    left:3%;
+    top: 15%;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.colorlib-heading {
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position:absolute;
+    top: 20%;
+    left: 3%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row {
+    height: 400px;
+    width: 50%;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+.university {
+    height:15%;
+    width: 100%;
+    background-color: #f2f3f7;
+    border: 1px solid #e6e6e6 !important;
+    cursor: pointer;
+    transition: .7s;
+    animation: moveRight .4s ease-in;
+    
+}
+#education_heading {
+    padding: 20px 25px;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Quicksand", Arial, sans-serif;
+    animation: letterRight .6s ease-in;
+}
+
+.school {
+    margin-top: 15px;
+    height:15%;
+    width: 100%;
+    background-color: #f2f3f7;
+    border: 1px solid #e6e6e6 !important;
+    transition: 0.7s;
+    cursor: pointer;
+    animation: moveRight .78s ease-in;
+}
+#plus_icon{
+    float: right;
+    margin-right: 5%;
+}
+.plus_icon {
+    height: 30px;
+    width: 30px;
+}
+.plus_icon_active{
+    display: none;
+}
+
+.university_active {
+    height: 30%;
+    transform: 0.7s;
+}
+
+@keyframes moveRight {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes letterRight {
+    0%{
+        font-size: 0;
+        font-weight: 0;
+    }
+    100%{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

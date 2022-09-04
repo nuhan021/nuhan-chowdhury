@@ -1,0 +1,140 @@
+.container {
+    background-color: white;
+}
+.about_me {
+    height: 350px;
+    width: 70%;
+    position:absolute;
+    top: 5%;
+    left: 3%;
+    text-transform: capitalize;
+}
+.about_me .pre {
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 8px;
+    font-size: large;
+}
+.about_me h3 {
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-top: 13px;
+}
+.about_me #p1 {
+    margin-top: 60px;
+    line-height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #4c4c4c;
+}
+.about_me #p1 p {
+    margin-top: 40px;
+}
+
+.can_do {
+    height: 200px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: slideMe .7s ease-in-out;
+}
+.design {
+    height: 170px;
+    width: 170px;
+    background-color: #f2f3f7;
+    position: relative;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.884);
+    transition: .4s;
+}
+.graphic_design {
+    border-bottom: 3px solid #2c98f0;
+    animation: slideMe .3s ease-in-out;
+}
+.web_design {
+    border-bottom: 3px solid #ec5453;
+    animation: slideMe .7s ease-in-out;
+}
+.software {
+    border-bottom: 3px solid #f9bf3f;
+    animation: slideMe .9s ease-in-out;
+}
+.application {
+    border-bottom: 3px solid #a84cb8;
+    animation: slideMe 1.1s ease-in-out;
+}
+.icon {
+    font-size: 40px;
+    position:absolute;
+    top: 10%;
+    left:10%;
+    color: #2c98f0;
+}
+.icon:before{
+    content: "\e90e";
+}
+.can_do div {
+    position: relative;
+}
+.can_do p {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bolder;
+    display: block;
+    width: 80%;
+    height: 30px;
+    position:absolute;
+    top:50%;
+    left: 10%;
+}
+.can_do div {
+    cursor: pointer;
+}
+
+.some {
+    width: 70%;
+    height: 204px;
+    background-color: #f9bf3f;
+    position:absolute;
+    top: 75%;
+    left: 3%;
+    display: flex;
+    align-items: center;
+}
+.some h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.some button {
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 62%;
+    left: 20%;
+    cursor: pointer;
+}
+.design:hover {
+    transform: scale(1.3);
+}
+
+
+@keyframes slideMe {
+    0% {
+        transform:translateY(50%);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}

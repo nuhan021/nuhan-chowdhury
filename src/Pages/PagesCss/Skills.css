@@ -1,0 +1,52 @@
+.container_skills {
+    width: 83%;
+    height: 100vh;
+    position:absolute;
+    right: 0;
+}
+
+.container_sm {
+    height: 300px;
+    width: 70%;
+    position:absolute;
+    left: 3%;
+    top: 15%;
+}
+.speciality {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.my_skills {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+.somes {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    margin-top: 8%;
+    font-size: 15px;
+}
+.progress_1 {
+    height: 300px;
+    width: 30%;
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    transition: .7s;
+}
+.progress_1:hover {
+    transform: scale(1.1);
+}
+.progress_2:hover {
+    transform: scale(1.1);
+}
+.progress_2 {
+    height: 300px;
+    width: 30%;
+    position: absolute;
+    left: 42%;
+    top: 45%;
+    transition: .7s;
+}

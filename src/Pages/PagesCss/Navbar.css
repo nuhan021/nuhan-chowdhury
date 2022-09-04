@@ -1,0 +1,88 @@
+.navbar {
+    height: 100vh;
+    width: 17%;
+    background-color: #f2f3f7;
+    position:relative;
+    z-index: 1;
+    position:fixed;
+}
+.profile {
+    height: 170px;
+    width: 170px;
+    background-image: url('/src/Pages/profile2.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    position:absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif, "Helvetica Nee";
+    position:absolute;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+}
+.navbar p {
+    color: #2c98f0;
+    font-size: 13px;
+    position:absolute;
+    top:  29%;
+    width:100%;
+    text-align: center;
+}
+
+.nav_ul {
+    height: 40%;
+    width: 100%;
+    position:absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_li {
+    height: 40px;
+    width: 100px;
+    /* background-color: red; */
+}
+.nav_link {
+    display: block;
+    height: 0px;
+    width: 100px;
+    border-right: 1px solid black;
+    transition:  .4s;
+    transition-timing-function:ease-out;
+    color: #48484a;
+    text-transform: capitalize;
+}
+.active {
+    height: 30px;
+    color:#2c98f0;
+}
+footer {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%);
+   
+}
+small {
+    color: #79797b;
+}
+
+.icons {
+    position:absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}

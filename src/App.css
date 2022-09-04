@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono&display=swap');
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.container {
+    width: 83%;
+    height: 100vh;
+    /* background-color: #727272; */
+    position:absolute;
+    right: 0;
+}
