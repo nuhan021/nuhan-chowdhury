@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 import Navbar from "./Pages/Navbar";
 import Blog from "./Pages/Blog";
 import About from "./Pages/About";
@@ -11,8 +10,7 @@ import Skills from "./Pages/Skills";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
 import './App.css';
-import { AnimatePresence, motion } from "framer-motion";
-import { BrowserRouter ,Routes, Route, useLocation} from "react-router-dom";
+import { BrowserRouter ,Routes, Route} from "react-router-dom";
 function App()  {
   // const location = useLocation();
   return(
