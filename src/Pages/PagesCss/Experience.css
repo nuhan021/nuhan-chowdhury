@@ -105,9 +105,9 @@
     animation: exSlideLeft .8s ease-in;
 }
 
-.animICon{
-    height: 30px;
-    width: 30px;
+.animIcon {
+    display: block;
+    font-size: 30px;
 }
 .div_pra{
     width: 70%;

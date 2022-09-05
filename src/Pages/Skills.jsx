@@ -1,8 +1,6 @@
 import './PagesCss/Skills.css';
-import { ProgressBar } from 'react-bootstrap';
 import Progress from './Progress/Progress';
 const Skills = () => {
-    const now = 60
     return (
 
         <>

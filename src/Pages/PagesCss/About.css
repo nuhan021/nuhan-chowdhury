@@ -69,16 +69,12 @@
     border-bottom: 3px solid #a84cb8;
     animation: slideMe 1.1s ease-in-out;
 }
-.icon {
-    font-size: 40px;
-    position:absolute;
-    top: 10%;
-    left:10%;
-    color: #2c98f0;
+.can_do iconify-icon{
+    position: absolute;
+    top:10%;
+    left: 10%;
 }
-.icon:before{
-    content: "\e90e";
-}
+
 .can_do div {
     position: relative;
 }

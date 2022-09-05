@@ -17,7 +17,7 @@ const Services = () => {
                             <div className="warp">
                                 <div style={{borderBottom:'30px solid #2c98f0'}} className="up"></div>
                                 <div style={{backgroundColor:'#2c98f0'}} className="mid">
-                                <span class="iconify" data-icon="akar-icons:react-fill"></span>
+                                <iconify-icon icon="akar-icons:react-fill" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #2c98f0'}} className="down"></div>
                             </div>
@@ -31,7 +31,7 @@ const Services = () => {
                             <div className="warp">
                             <div style={{borderBottom:'30px solid #ec5453'}} className="up"></div>
                                 <div style={{backgroundColor:'#ec5453'}} className="mid">
-                                <span class="iconify" data-icon="cib:next-js"></span>
+                                <iconify-icon icon="cib:next-js" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #ec5453'}} className="down"></div>
                             </div>
@@ -45,7 +45,7 @@ const Services = () => {
                             <div className="warp">
                             <div style={{borderBottom:'30px solid #f9bf3f'}} className="up"></div>
                                 <div style={{backgroundColor:'#f9bf3f'}} className="mid">
-                                <span class="iconify" data-icon="fa:android"></span>
+                                <iconify-icon icon="tabler:brand-react-native" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #f9bf3f'}} className="down"></div>
                             </div>
@@ -59,7 +59,7 @@ const Services = () => {
                             <div className="warp">
                             <div style={{borderBottom:'30px solid #ff1493'}} className="up"></div>
                                 <div style={{backgroundColor:'#ff1493'}} className="mid">
-                                <span class="iconify" data-icon="ant-design:database-filled"></span>
+                                <iconify-icon icon="ant-design:database-filled" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #ff1493'}} className="down"></div>
                             </div>
@@ -81,7 +81,7 @@ const Services = () => {
                             <div className="warp">
                                 <div style={{borderBottom:'30px solid #a84cb8'}} className="up"></div>
                                 <div style={{backgroundColor:'#a84cb8'}} className="mid">
-                                <span class="iconify" data-icon="carbon:machine-learning-model"></span>
+                                <iconify-icon icon="carbon:machine-learning" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #a84cb8'}} className="down"></div>
                             </div>
@@ -95,7 +95,7 @@ const Services = () => {
                             <div className="warp">
                             <div style={{borderBottom:'30px solid #2fa499'}} className="up"></div>
                                 <div style={{backgroundColor:'#2fa499'}} className="mid">
-                                <span class="iconify" data-icon="el:website"></span>
+                                <iconify-icon icon="arcticons:websitemonitor" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #2fa499'}} className="down"></div>
                             </div>
@@ -109,7 +109,7 @@ const Services = () => {
                             <div className="warp">
                             <div style={{borderBottom:'30px solid #4054b2'}} className="up"></div>
                                 <div style={{backgroundColor:'#4054b2'}} className="mid">
-                                <span class="iconify" data-icon="file-icons:silicongraphics"></span>
+                                <iconify-icon icon="fluent:design-ideas-24-regular" width="40" height="40" style={{color:'white'}}></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #4054b2'}} className="down"></div>
                             </div>
@@ -123,7 +123,7 @@ const Services = () => {
                             <div className="warp">
                             <div style={{borderBottom:'30px solid #00ffff'}} className="up"></div>
                                 <div style={{backgroundColor:'#00ffff'}} className="mid">
-                                <span class="iconify" data-icon="fa-brands:node-js"></span>
+                                <iconify-icon icon="fa-brands:node-js" width="40" height="40" style={{color:'white'}} ></iconify-icon>
                                 </div>
                                 <div style={{borderTop: '30px solid #00ffff'}} className="down"></div>
                             </div>

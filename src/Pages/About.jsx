@@ -1,7 +1,5 @@
 import './PagesCss/Home.css';
 import './PagesCss/About.css';
-import { FaRegLightbulb } from 'react-icons/fa';
-import { Icon } from '@iconify/react';
 const About = () => {
     return (
         <>
@@ -19,23 +17,23 @@ const About = () => {
                 </div>
                 <div className="can_do">
                     <div className="graphic_design design">
-                        <p style={{ color: '#2c98f0' }}>graphic design</p>
-                        <Icon className='icon _1' icon="teenyicons:bulb-on-outline" />
+                        <p >graphic design</p>
+                        <iconify-icon icon="teenyicons:bulb-on-outline" width="40" height="40" className='icony' style={{color:'#2c98f0'}}></iconify-icon>
                     </div>
 
                     <div className="web_design design">
-                        <p style={{ color: '#ec5453' }}> web design</p>
-                        <Icon className='icon' icon="carbon:application-web" />
+                        <p> web design</p>
+                        <iconify-icon icon="carbon:application-web" width="40" height="40"  style={{ color: '#ec5453' }}></iconify-icon>
                     </div>
 
                     <div className="software design">
-                        <p style={{ color: '#f9bf3f' }}> software</p>
-                        <Icon className='icon' icon="fa:database" />
+                        <p> software</p>
+                        <iconify-icon icon="fa:android" width="40" height="40" style={{ color: '#f9bf3f' }}></iconify-icon>
                     </div>
                     
                     <div className="application design">
-                        <p style={{ color: '#a84cb8' }}>application</p>
-                        <Icon className='icon' icon="pepicons:smartphone-notch" />
+                        <p>application</p>
+                        <iconify-icon icon="pepicons:smartphone-notch" width="40" height="40"  style={{ color: '#a84cb8' }}></iconify-icon>
                     </div>
                 </div>
                 <div className="some">

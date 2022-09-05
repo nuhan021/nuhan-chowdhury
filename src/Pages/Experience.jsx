@@ -1,5 +1,4 @@
 import './PagesCss/Experience.css';
-import { Icon } from '@iconify/react';
 const Experience = () => {
     return (
         <>
@@ -37,10 +36,10 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="side_row">
-                        <div style={{ backgroundColor: '#2c98f0' }} className="ex ex_1"><Icon icon="emojione:penguin" className='animICon' /></div>
-                        <div style={{ backgroundColor: '#ff1493 ' }} className="ex ex_4"><Icon icon="emojione:grinning-cat-face" className='animICon' /></div>
-                        <div style={{ backgroundColor: '#ec5453' }} className="ex ex_2"><Icon icon="noto:panda" className='animICon' /></div>
-                        <div style={{ backgroundColor: '#2fa499' }} className="ex ex_3"><Icon icon="twemoji:owl"  className='animICon' /> </div>
+                        <div style={{ backgroundColor: '#2c98f0' }} className="ex ex_1"><iconify-icon icon="emojione:penguin" width="30" height="30"></iconify-icon></div>
+                        <div style={{ backgroundColor: '#ff1493 ' }} className="ex ex_4"><iconify-icon icon="emojione:grinning-cat-face" width="30" height="30"></iconify-icon></div>
+                        <div style={{ backgroundColor: '#ec5453' }} className="ex ex_2"><iconify-icon icon="noto:panda" width="30" height="30"></iconify-icon></div>
+                        <div style={{ backgroundColor: '#2fa499' }} className="ex ex_3"><iconify-icon icon="twemoji:owl" width="30" height="30"></iconify-icon> </div>
                         
                     </div>
 

@@ -46,13 +46,12 @@
 
 .nav_li {
     height: 40px;
-    width: 100px;
-    /* background-color: red; */
+    width: 40%;
 }
 .nav_link {
     display: block;
     height: 0px;
-    width: 100px;
+    width: 130px;
     border-right: 1px solid black;
     transition:  .4s;
     transition-timing-function:ease-out;
@@ -74,15 +73,6 @@ small {
     color: #79797b;
 }
 
-.icons {
-    position:absolute;
-    top: 93%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 60%;
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: larger;
+.nav_ul .nav_li .nav_link iconify-icon {
+    padding-right: 10px;
 }

@@ -1,5 +1,4 @@
 import './PagesCss/Work.css';
-import { Icon } from '@iconify/react';
 const Work = () => {
     const style1 = { backgroundColor: '#ffffff80' }
     const style2 = { padding: '4px' };
@@ -13,9 +12,9 @@ const Work = () => {
     function Likes() {
         return (
             <>
-                <div className="icons_like" style={{ ...style1, ...style2, ...style3 }} ><Icon icon="charm:share" /></div>
-                <div className="icons_like" style={{ ...style1, ...style2, ...style3 }} ><Icon icon="carbon:view-filled" /><span>100</span></div>
-                <div className="icons_like" style={{ ...style1, ...style2, ...style3 }} ><Icon icon="wpf:like" /><span>48</span></div>
+                <div className="icons_like" style={{ ...style1, ...style2, ...style3 }} ><iconify-icon icon="el:share-alt"></iconify-icon></div>
+                <div className="icons_like" style={{ ...style1, ...style2, ...style3 }} ><iconify-icon icon="carbon:view-filled"></iconify-icon><span>100</span></div>
+                <div className="icons_like" style={{ ...style1, ...style2, ...style3 }} ><iconify-icon icon="wpf:like"></iconify-icon><span>48</span></div>
             </>
         )
     }
